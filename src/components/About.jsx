@@ -1,28 +1,22 @@
 import React from "react";
-import img from "../assets/img/about.jpg";
+import img from "../assets/img/img4.png";
 
 const About = () => {
   return (
     <div className=" min-h-screen flex flex-col lg:flex-row justify-between items-center lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
       <div className=" w-full lg:w-3/4 space-y-4">
-        <h1 className=" text-4xl font-semibold text-center lg:text-start">Titulo</h1>
+        <h1 className=" text-4xl font-semibold text-center lg:text-start">Conoce al Doctor</h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
+        El Doctor Alvarado cursó la carrera de Médico Cirujano en la Universidad Popular Autónoma del Estado de Puebla (UPAEP),
+         realizó la especialidad en Cirugía General, actualmente miembro certificado del Consejo Mexicano de Cirugía General, 
+         así como miembro de la Sociedad de Gastroenterología del Estado de Puebla. 
+         
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
+        Actualmente es miembro de las más importantes sociedades de cirugía general en el mundo.
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
+          
         </p>
       </div>
       <div className=" w-full lg:w-3/4">

@@ -13,7 +13,7 @@ const ServicesCard = ({ icon, title }) => {
       </p>
 
       <h3 className=" text-backgroundColor cursor-pointer hover:text-[#ade9dc] transition duration-300 ease-in-out">
-        Botón
+        Ver más
       </h3>
     </div>
   );

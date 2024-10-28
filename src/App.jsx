@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Trajectory from "./components/Trajectory";
 import Services from "./components/Services";
-import Doctors from "./components/Doctors";
-import Blogs from "./components/Blogs";
+{ /* import Blogs from "./components/Blogs"; */}
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -20,18 +20,18 @@ const App = () => {
         <div id="about">
           <About />
         </div>
-
+        <div>
+          <Trajectory />
+        </div>
         <div id="services">
           <Services />
         </div>
-
-        <div id="doctors">
-          <Doctors />
-        </div>
-
+        {/* 
         <div id="blog">
           <Blogs />
         </div>
+        */}
+
       </main>
 
       <Footer />

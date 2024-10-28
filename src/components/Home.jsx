@@ -3,19 +3,17 @@ import Button from "../layouts/Button";
 
 const Home = () => {
   return (
-    <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 text-white bg-[url('assets/img/home.png')] bg-no-repeat bg-cover opacity-90">
-      <div className=" w-full lg:w-4/5 space-y-5 mt-10">
+    <div className="min-h-screen flex flex-col justify-center lg:px-32 px-5 text-white bg-[url('assets/img/img3.jpg')] bg-no-repeat bg-cover bg-center opacity-90">
+      <div className="w-full lg:w-4/5 space-y-5 mt-10">
         <h1 className="text-5xl font-bold leading-tight">
-          Titulo Titulo Titulo Titulo Titulo Titulo
+        Cirujano Gastroenterólogo
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magnam
-          omnis natus accusantium quos. Reprehenderit incidunt expedita
-          molestiae impedit at sequi dolorem iste sit culpa, optio voluptates
-          fugiat vero consequatur?
+        Gastroenterología, Cirugía Oncológica Gastrointestinal, Cirugía General y Laparoscopía.
+
         </p>
 
-        <Button title="Botón" />
+        <Button title="Ver más" />
       </div>
     </div>
   );
