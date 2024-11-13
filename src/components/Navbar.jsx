@@ -52,7 +52,7 @@ const Navbar = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Sobre Mí
+               Conóceme
             </Link>
             <Link
               to="services"

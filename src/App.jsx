@@ -1,11 +1,17 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
 import Trajectory from "./components/Trajectory";
-import Services from "./components/Services";
-{ /* import Blogs from "./components/Blogs"; */}
+import Service from "./components/Service";
+import Blog from "./components/Blog";
 import Footer from "./components/Footer";
+import DoctorProfile from "./components/DoctorProfile";
+import AboutSection from "./components/AboutSection";
+import KeyDifferentiators from "./components/KeyDifferentiators";
+import AppointmentBanner from "./components/AppointmentBanner";
+import Reviews from "./components/Reviews";
+import MedicalStats from "./components/MedicalStats";
+import Associations from "./components/Associations";
+import LocationMap from "./components/LocationMap";
 
 const App = () => {
   return (
@@ -14,23 +20,40 @@ const App = () => {
 
       <main>
         <div id="home">
-          <Home />
+          <DoctorProfile />
         </div>
 
         <div id="about">
-          <About />
-        </div>
-        <div>
-          <Trajectory />
+          <AboutSection/>
+          
         </div>
         <div id="services">
-          <Services />
+        <Service />
+        <MedicalStats />
+        <AppointmentBanner/>
+        <KeyDifferentiators/>
         </div>
-        {/* 
+
+        <div>
+          
+          <Trajectory />
+        </div>
+
+        
         <div id="blog">
-          <Blogs />
+   
+          <Blog />
         </div>
-        */}
+        <div>
+          <LocationMap/>
+        </div>
+        <div>
+        <Reviews/>
+       </div>
+       <div>
+          <Associations/>
+        </div>
+       {/*  */}
 
       </main>
 
