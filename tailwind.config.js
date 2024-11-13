@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         hoverColor: "#FFC000",
-        brightColor: "#dd8036",
+        brightColor: "#000",
         backgroundColor: "#36ae9a",
       },
     },
