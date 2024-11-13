@@ -79,7 +79,7 @@ const Navbar = () => {
               duration={500}
               className=" hover:text-hoverColor transition-all cursor-pointer"
             >
-              Blog
+              Contacto
             </Link>
           </nav>
 
@@ -110,7 +110,7 @@ const Navbar = () => {
             className=" hover:text-hoverColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Home
+            Incio
           </Link>
           <Link
             to="about"
@@ -120,7 +120,7 @@ const Navbar = () => {
             className=" hover:text-hoverColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            About Us
+             Conóceme
           </Link>
           <Link
             to="services"
@@ -130,7 +130,7 @@ const Navbar = () => {
             className=" hover:text-hoverColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Services
+            Servicios
           </Link>
           <Link
             to="doctors"
@@ -140,7 +140,7 @@ const Navbar = () => {
             className=" hover:text-hoverColor transition-all cursor-pointer"
             onClick={closeMenu}
           >
-            Doctors
+            Ubicación
           </Link>
           <Link
             to="blog"
@@ -158,7 +158,7 @@ const Navbar = () => {
               className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
               onClick={openForm}
             >
-              Contact Us
+             Contacto
             </button>
           </div>
         </div>
