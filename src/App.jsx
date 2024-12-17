@@ -11,6 +11,7 @@ import AppointmentBanner from "./components/AppointmentBanner";
 import Reviews from "./components/Reviews";
 import MedicalStats from "./components/MedicalStats";
 import Associations from "./components/Associations";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
 
       <main>
         <div id="home">
+          <WhatsAppButton/>
           <DoctorProfile />
         </div>
 
