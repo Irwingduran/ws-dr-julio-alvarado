@@ -54,13 +54,13 @@ const Footer = () => {
           <h1 className="font-medium text-xl pb-4">Contacto</h1>
           <nav className="flex flex-col gap-2">
             <a href="mailto:surgery_allez@yahoo.com.mx" className="hover:text-hoverColor">
-              surgery_allez@yahoo.com.mx
+              e-mail
             </a>
             <a href="tel:+522222576989" className="hover:text-hoverColor">
-              +52 222 257 6989 <br /> Hospital UPAEP (Llamada)
+              +52 222 257 6989 <br /> Hospital UPAEP
             </a>
             <a href="https://wa.me/522224809611" target="_blank" rel="noopener noreferrer" className="hover:text-hoverColor">
-              +52 222 480 9611 <br /> (Urgencias y WhatsApp)
+              +52 222 480 9611 <br /> Urgencias y WhatsApp
             </a>
           </nav>
         </div>

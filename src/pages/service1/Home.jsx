@@ -15,12 +15,13 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative bg-white text-black py-32 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Servicio</h1>
-          <p className="text-lg md:text-xl mb-8">
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium velit. Veritatis tempora doloremque eum suscipit voluptatem. Illum cumque nam nihil repellat? Voluptates, provident accusantium perferendis incidunt aut labore ullam?          </p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Cáncer de Colón</h1>
+          <p className="text-lg md:text-xl mb-6">
+          El cáncer de colon es una enfermedad que afecta al intestino grueso y suele comenzar como pólipos que pueden volverse malignos. Sus síntomas incluyen cambios en los hábitos intestinales, sangre en las heces y dolor abdominal. Factores de riesgo como dieta, antecedentes familiares y tabaquismo aumentan su probabilidad. La detección temprana es clave, y el tratamiento puede incluir cirugía, quimioterapia y radioterapia.
+</p>
           <div className="flex justify-center gap-4">
             <Link
-              to="services"
+              to="/#services"
               smooth={true}
               duration={500}
               className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition"
@@ -28,10 +29,10 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium veli
               Ver Servicios
             </Link>
             <a
-              href="tel:+123456789"
+              href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
               className="bg-green-500 text-white px-6 py-2 rounded-full font-semibold flex items-center gap-2 hover:bg-green-600 transition"
             >
-              <FaPhoneAlt /> Llamar Ahora
+              <FaPhoneAlt />Agendar cita
             </a>
           </div>
         </div>
@@ -43,15 +44,15 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium veli
           <div>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Sobre el Servicio</h2>
             <p className="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolor soluta officiis, possimus provident sequi amet exercitationem ex quaerat quae, corrupti ab doloremque accusamus voluptatum incidunt excepturi odio? Tempora, ad.
-            </p>
+            Ofrecemos un servicio integral que incluye la detección temprana mediante colonoscopias y pruebas avanzadas, un diagnóstico personalizado utilizando tecnología de última generación, y tratamientos especializados que abarcan cirugía, quimioterapia, radioterapia y terapias innovadoras. 
+                        </p>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facere aut cumque optio aliquid minima adipisci, molestias temporibus? Minus voluptas facere nihil quibusdam laboriosam velit, dolores adipisci a? Vitae, dicta.
+Además, brindamos atención continua con un enfoque humano y profesional, garantizando seguimiento médico durante todo el proceso y priorizando la calidad de vida en cada etapa.
             </p>
           </div>
           <div>
             <img
-              src="https://via.placeholder.com/500"
+              src="img/details.jpg"
               alt="Doctor"
               className="w-full rounded-lg shadow-md"
             />
@@ -67,12 +68,11 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, accusantium veli
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
-            { title: "Apendicitis", desc: "Diagnóstico y tratamiento de apendicitis aguda." },
-            { title: "Cáncer del Colon", desc: "Detección y tratamiento integral del cáncer de colon." },
-            { title: "Cáncer del Estómago", desc: "Tratamiento especializado para el cáncer gástrico." },
-            { title: "Cirugía Laparoscópica", desc: "Procedimientos mínimamente invasivos." },
-            { title: "Atención Integral", desc: "Enfoque holístico en el cuidado del paciente." },
-            { title: "Consulta Especializada", desc: "Diagnósticos precisos y personalizados." },
+            { title: "Detección temprana", desc: "Realizamos colonoscopias y pruebas avanzadas para identificar pólipos o signos tempranos de cáncer." },
+            { title: "Diagnóstico personalizado", desc: "Contamos con tecnología de última generación para un diagnóstico preciso y detallado."},
+            { title: "Tratamientos especializados", desc: "Diseñamos planes de tratamiento individualizados que pueden incluir cirugía, quimioterapia, radioterapia y terapias avanzadas." },
+            { title: "Atención continua", desc: " Proveemos seguimiento médico constante para garantizar tu bienestar durante y después del tratamiento." },
+
           ].map((service, index) => (
             <div
               key={index}

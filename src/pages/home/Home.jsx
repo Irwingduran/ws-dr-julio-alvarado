@@ -11,21 +11,20 @@ import AppointmentBanner from "./AppointmentBanner";
 import Reviews from "./Reviews";
 import MedicalStats from "./MedicalStats";
 import Associations from "./Associations";
+import Partners from "./Partners";
 import Contact from "../../components/Contact";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-
       <main>
         <div className="py-5" id="home">
           <DoctorProfile />
         </div>
         <MedicalStats />
         <div className="py-12" id="about">
-          <AboutSection/>
-          
+          <AboutSection/>  
         </div>
         <div className="py-6" id="services">
         <Service />
@@ -44,11 +43,9 @@ const App = () => {
        <div className="py-9" id="contact">
        <Contact/>
           <Associations/>
+          <Partners/>
         </div>
-       {/*  */}
-
       </main>
-
       <Footer />
     </div>
   );

@@ -30,7 +30,7 @@ const AppointmentBanner = () => {
         <h2 className="text-3xl font-bold mb-8 my-16">Ubicación del Consultorio</h2>
         <div className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3771.417015668337!2d-98.20784272479541!3d19.0453941821529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDAyJzQzLjQiTiA5OMKwMTInMTkuMCJX!5e0!3m2!1sen!2smx!4v1734468678833!5m2!1sen!2smx"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3771.417015668337!2d-98.20784272479541!3d19.0453941821529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDAyJzQzLjQiTiA5OMKwMTInMTkuMCJX!5e0!3m2!1ses!2smx!4v1736381240667!5m2!1ses!2smx"
             width="100%"
             height="100%"
             style={{ border: 0 }}
