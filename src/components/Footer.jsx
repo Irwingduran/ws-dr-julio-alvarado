@@ -54,7 +54,7 @@ const Footer = () => {
           <h1 className="font-medium text-xl pb-4">Contacto</h1>
           <nav className="flex flex-col gap-2">
             <a href="mailto:surgery_allez@yahoo.com.mx" className="hover:text-hoverColor">
-              e-mail
+              E-mail
             </a>
             <a href="tel:+522222576989" className="hover:text-hoverColor">
               +52 222 257 6989 <br /> Hospital UPAEP
