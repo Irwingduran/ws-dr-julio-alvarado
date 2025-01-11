@@ -26,9 +26,9 @@ const AboutSection = () => {
               <p className="text-gray-700 mb-6">
               Ha compartido sus conocimientos en ponencias como “Cáncer de Páncreas”, destacando su compromiso con la excelencia médica y el bienestar de sus pacientes. 
               </p>
-              <a href="#contact">
+              <a href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0">
               <button className="bg-backgroundColor text-white py-2 px-6 rounded-lg flex items-center gap-2 hover:bg-purple-600 transition duration-300">
-              Contacto
+              Contáctame
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"

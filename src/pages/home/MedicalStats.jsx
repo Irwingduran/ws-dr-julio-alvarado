@@ -52,10 +52,10 @@ const StatCard = ({ icon: Icon, value, label }) => (
 // Componente MedicalStats
 const MedicalStats = () => {
   const stats = [
-    { icon: Stethoscope, value: 1080, label: "Cirugías" },
-    { icon: Heart, value: 650, label: "Consultas" },
-    { icon: Star, value: 80, label: "Pacientes atendidos" },
-    { icon: SmilePlus, value: 180, label: "Sonrisas" }
+    { icon: Stethoscope, value: 10000, label: "Cirugías" },
+    { icon: Heart, value: 3500, label: "Consultas" },
+    { icon: Star, value: 500, label: "Pacientes atendidos" },
+    { icon: SmilePlus, value: 650, label: "Sonrisas" }
   ];
 
   return (

@@ -29,22 +29,23 @@ const Footer = () => {
               Todos los servicios
             </Link>
             <Link
-              to="appointment"
+              to="contact"
+              target="_blank"
               spy={true}
               smooth={true}
               duration={500}
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
-              Agendar una cita
+             Contacto
             </Link>
             <Link
-              to="checkup"
+              to="about"
               spy={true}
               smooth={true}
               duration={500}
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
-              Chequeo general
+              Sobre Mí
             </Link>
           </nav>
         </div>

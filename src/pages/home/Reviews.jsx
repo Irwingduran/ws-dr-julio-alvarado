@@ -36,7 +36,7 @@ const Reviews = () => {
   };
 
   return (
-    <section className="py-16 px-8 bg-white">
+    <section className="py-36 px-8 bg-white">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">Opiniones de Pacientes</h2>
         <div className="relative bg-white shadow-lg rounded-2xl p-10">

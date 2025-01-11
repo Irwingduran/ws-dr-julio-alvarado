@@ -6,6 +6,7 @@ import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 
 
+
 const Home = () => {
   return (
     <div className="bg-gray-50">
@@ -15,22 +16,18 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative bg-white text-black py-32 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Cáncer de Colón</h1>
-          <p className="text-lg md:text-xl mb-6">
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">Cáncer de Colón</h2>
+          <p className="text-lg md:text-lg mb-6">
           El cáncer de colon es una enfermedad que afecta al intestino grueso y suele comenzar como pólipos que pueden volverse malignos. Sus síntomas incluyen cambios en los hábitos intestinales, sangre en las heces y dolor abdominal. Factores de riesgo como dieta, antecedentes familiares y tabaquismo aumentan su probabilidad. La detección temprana es clave, y el tratamiento puede incluir cirugía, quimioterapia y radioterapia.
 </p>
           <div className="flex justify-center gap-4">
-            <Link
-              to="/#services"
-              smooth={true}
-              duration={500}
-              className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition"
-            >
+           <a href="/#services" className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
               Ver Servicios
-            </Link>
+            </a>
             <a
               href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
               className="bg-green-500 text-white px-6 py-2 rounded-full font-semibold flex items-center gap-2 hover:bg-green-600 transition"
+              target="_blank"
             >
               <FaPhoneAlt />Agendar cita
             </a>

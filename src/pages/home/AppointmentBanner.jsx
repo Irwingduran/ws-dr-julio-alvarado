@@ -8,23 +8,22 @@ const AppointmentBanner = () => {
         className="mt-20 relative w-full h-96 bg-gray-900 text-white bg-cover bg-center"
         style={{
           backgroundImage: "url('https://cdn.findoctor.com.co/media/3290/medium_drjulio.png')", 
-        }}
-      >
+        }}>
         {/* Contenido del banner */}
         <div className="relative z-10 flex flex-col justify-center items-center h-full p-6 text-center">
           <h2 className="text-4xl font-bold mb-4">Agenda tu cita</h2>
           <p className="mb-6 max-w-2xl">
             Recibe atención médica de calidad y personalizada. Reserva tu cita en línea y accede al cuidado profesional que mereces.
           </p>
+          <a href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank">
           <button className="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-lg shadow-lg transition duration-300">
             Agendar cita
           </button>
+          </a>
         </div>
-
         {/* Overlay para resaltar el texto */}
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-gray-900 opacity-70"></div>
       </div>
-
       {/* Sección del mapa */}
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8 my-16">Ubicación del Consultorio</h2>

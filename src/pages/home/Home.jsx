@@ -26,13 +26,14 @@ const App = () => {
         <div className="py-12" id="about">
           <AboutSection/>  
         </div>
+        <Trajectory />
         <div className="py-6" id="services">
         <Service />
         </div>
         <div>
         <KeyDifferentiators/>
         <AppointmentBanner/>
-        <Trajectory />
+        
         </div>
         <div>
           <Blog />

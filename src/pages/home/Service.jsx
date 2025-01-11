@@ -2,7 +2,7 @@ import React from "react";
 
 const Service = () => {
   return (
-    <section className="min-h-screen py-16 px-8 bg-white">
+    <section className="min-h-screen px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Título de la sección */}
         <div className="text-center mb-16">
