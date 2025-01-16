@@ -81,10 +81,10 @@ const Blog = () => {
   return (
     <div className="h-fit py-20 flex flex-col justify-center lg:px-32 px-5 bg-white">
       <div className="flex flex-col items-center lg:flex-row object-center justify-between mb-10 lg:mb-0">
-        <h1 className=" text-4xl font-semibold text-center lg:text-start">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-semibold text-center lg:text-start">
            Artículos
           </h1>
-        <div className="text-center mb-12">
           <p className=" mt-2 text-center lg:text-start">
             Articulos que tal vez sean de tu interés...
           </p>
