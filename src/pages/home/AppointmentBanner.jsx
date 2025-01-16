@@ -39,6 +39,7 @@ const AppointmentBanner = () => {
           ></iframe>
         </div>
         <p className="mt-4 text-gray-600">Visítanos en nuestra ubicación para consultas y atención médica personalizada.</p>
+          <p className="mt-4 text-gray-600">Hospital UPAEP, Consultorio 4, Puebla, Pue.</p>
       </div>
     </div>
   );
