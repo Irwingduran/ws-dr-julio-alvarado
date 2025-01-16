@@ -81,7 +81,7 @@ const Blog = () => {
   return (
     <div className="h-fit py-20 flex flex-col justify-center lg:px-32 px-5 bg-white">
       <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-gray-800 mb-6">Artículos</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-6">Artículos</h2>
           <p className="text-lg text-gray-600">
             Artículos que tal vez sean de tu interés...
           </p>
