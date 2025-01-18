@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         
         {/* Sobre el doctor */}
         <div>
-          <h1 className="font-semibold text-xl pb-4">Dr. Julio Alvarado Lezama</h1>
+          <a href="/"><h1 className="font-semibold text-xl pb-4">Dr. Julio Alvarado Lezama</h1></a>
           <p className="text-sm">
             El doctor es miembro de las más importantes sociedades de cirugía general en el mundo.
           </p>
@@ -19,34 +18,24 @@ const Footer = () => {
         <div>
           <h1 className="font-medium text-xl pb-4">Servicio</h1>
           <nav className="flex flex-col gap-2">
-            <Link
-              to="services"
-              spy={true}
-              smooth={true}
-              duration={500}
+            <a
+              href="/#services"
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
               Todos los servicios
-            </Link>
-            <Link
-              to="contact"
-              target="_blank"
-              spy={true}
-              smooth={true}
-              duration={500}
+            </a>
+            <a
+              href="/#contact"
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
              Contacto
-            </Link>
-            <Link
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
+            </a>
+            <a
+              href="/#about"
               className="hover:text-hoverColor transition-all cursor-pointer"
             >
               Sobre Mí
-            </Link>
+            </a>
           </nav>
         </div>
 
