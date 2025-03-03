@@ -29,11 +29,11 @@ const App = () => {
         <Associations/>
         <div className="py-6" id="services">
         <Service />
+        <KeyDifferentiators/>
         </div>
         <Trajectory />
     
         <div>
-        <KeyDifferentiators/>
         <AppointmentBanner/>      
         </div>
         <div>
