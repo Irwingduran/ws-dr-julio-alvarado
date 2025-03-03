@@ -53,7 +53,7 @@ const Service = () => {
                 key={index}
                 className="flex items-center space-x-2 text-gray-700 hover:text-teal-600 transition-colors duration-300"
               >
-                <div className="w-2 h-2 rounded-full bg-teal-500"></div>
+                <div className="w-2 h-2 rounded-full bg-backgroundColor"></div>
                 <span>{service}</span>
               </div>
             ))}
@@ -80,7 +80,7 @@ const ServiceCard = ({ title, description, image, link }) => {
       
       {/* Contenido de la tarjeta */}
       <div className="p-6 bg-white relative">
-        <h3 className="text-2xl font-bold text-gray-700 mb-3 group-hover:text-teal-600 transition-colors duration-300">
+        <h3 className="text-2xl font-bold text-gray-700 mb-3 group-hover:text-[#b0e648] transition-colors duration-300">
           {title}
         </h3>
         <p className="text-gray-600">
@@ -88,7 +88,7 @@ const ServiceCard = ({ title, description, image, link }) => {
         </p>
         
         {/* Botón "Leer más" */}
-        <div className="mt-4 flex items-center text-teal-600 font-medium">
+        <div className="mt-4 flex items-center text-[#] font-medium">
           <span className="mr-2">Leer más</span>
           <svg 
             className="w-4 h-4 transform group-hover:translate-x-2 transition-transform duration-300" 
@@ -107,7 +107,7 @@ const ServiceCard = ({ title, description, image, link }) => {
       </div>
       
       {/* Barra decorativa superior */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-teal-500"></div>
+      <div className="absolute top-0 left-0 w-full h-1 bg-backgroundColor"></div>
     </div>
     </a>
   );

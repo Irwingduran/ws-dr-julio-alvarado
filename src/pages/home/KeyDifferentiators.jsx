@@ -33,7 +33,7 @@ const KeyDifferentiators = () => {
 
 const DifferentiatorCard = ({ icon, title, description }) => {
   return (
-    <div className="flex flex-col items-center text-center bg-teal-500 shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
+    <div className="flex flex-col items-center text-center bg-backgroundColor shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
       {icon}
       <h3 className="text-xl font-semibold text-white mt-2 mb-3">{title}</h3>
       <p className="text-white">{description}</p>

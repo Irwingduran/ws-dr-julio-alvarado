@@ -20,14 +20,14 @@ const Trajectory = () => {
 
         {/* Experiencia */}
         <div className="mb-12">
-  <h3 className="text-2xl font-bold text-teal-600 mb-6">Experiencia</h3>
+  <h3 className="text-2xl font-bold text-[#b0e648] mb-6">Experiencia</h3>
   <div className="relative">
     {/* Línea de tiempo */}
-    <div className="absolute w-1 bg-teal-500 h-full left-8 top-0"></div>
+    <div className="absolute w-1 bg-backgroundColor h-full left-8 top-0"></div>
     {trajectoryData.map((item, index) => (
       <div key={index} className="mb-10 flex items-start relative">
         {/* Icono */}
-        <div className="w-16 h-16 flex-shrink-0 bg-teal-500 text-white rounded-full flex items-center justify-center">
+        <div className="w-16 h-16 flex-shrink-0 bg-backgroundColor text-white rounded-full flex items-center justify-center">
           {item.icon}
         </div>
         {/* Contenido */}
@@ -37,7 +37,7 @@ const Trajectory = () => {
         </div>
         {/* Conector de la línea */}
         {index !== trajectoryData.length - 1 && (
-          <div className="absolute w-1 h-full bg-teal-500 left-8 top-16"></div>
+          <div className="absolute w-1 h-full bg-backgroundColor left-8 top-16"></div>
         )}
       </div>
     ))}
@@ -47,7 +47,7 @@ const Trajectory = () => {
 
         {/* Cursos */}
         <div className="mb-12">
-  <h3 className="text-2xl font-bold text-teal-600 mb-6">
+  <h3 className="text-2xl font-bold text-[#b0e648] mb-6">
     Constante actualización médica
   </h3>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -56,7 +56,7 @@ const Trajectory = () => {
         key={index}
         className="flex items-start p-4 bg-white shadow-md rounded-lg"
       >
-        <div className="w-10 h-10 flex-shrink-0 bg-teal-500 text-white rounded-full flex items-center justify-center mr-4">
+        <div className="w-10 h-10 flex-shrink-0 bg-backgroundColor text-white rounded-full flex items-center justify-center mr-4">
           <MdHealthAndSafety size={20} />
         </div>
         <div>
@@ -70,7 +70,7 @@ const Trajectory = () => {
 
         {/* Ponencias */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-teal-600 mb-6">Ponencias</h3>
+          <h3 className="text-2xl font-bold text-[#b0e648] mb-6">Ponencias</h3>
           <div className="p-6 bg-white shadow-md rounded-lg">
             <h4 className="text-lg font-semibold text-gray-800">Ponencia:</h4>
             <p className="text-gray-600">“Cáncer de Páncreas”.</p>

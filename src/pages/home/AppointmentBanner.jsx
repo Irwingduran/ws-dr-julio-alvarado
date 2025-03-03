@@ -16,7 +16,7 @@ const AppointmentBanner = () => {
             Recibe atención médica de calidad y personalizada. Reserva tu cita en línea y accede al cuidado profesional que mereces.
           </p>
           <a href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank">
-          <button className="px-8 py-3 bg-teal-500 hover:bg-teal-600 text-white font-semibold rounded-lg shadow-lg transition duration-300">
+          <button className="px-8 py-3 bg-[#b0e648] hover:bg-teal-600 text-white font-semibold rounded-lg shadow-lg transition duration-300">
             Agendar cita
           </button>
           </a>

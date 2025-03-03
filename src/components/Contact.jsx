@@ -90,7 +90,7 @@ const Contact = () => {
             <div className="md:col-span-2 flex justify-center">
               <button
                 type="submit"
-                className="flex items-center gap-2 bg-teal-500 text-white px-6 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300"
+                className="flex items-center gap-2 bg-backgroundColor text-white px-6 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300"
               >
                 <FaPaperPlane /> Enviar Mensaje
               </button>

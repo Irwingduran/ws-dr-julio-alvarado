@@ -95,9 +95,9 @@ const Footer = () => {
       {/* Pie de página */}
       <div className="border-t border-gray-700 mt-4">
         <p className="text-center py-4">
-          &copy; {new Date().getFullYear()} | Desarrollado por{" "}
-          <a href="https://delta-digital.com.mx" className="text-hoverColor">
-            Delta Agency
+          &copy; {new Date().getFullYear()} | Desarrollado por Delta{" "}
+          <a href="https://marketingmedicos.com.mx/" className="text-lime-950">
+          by Imagen Médica
           </a>
         </p>
       </div>
