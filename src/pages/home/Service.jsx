@@ -14,23 +14,23 @@ const Service = () => {
         
         {/* Tarjetas de servicios principales */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+        <ServiceCard 
+            title="Cáncer del Colon" 
+            description="Detección y manejo integral del cáncer de colon."
+            image="/img/service2.webp"
+            link="/Service1"
+          />
           <ServiceCard 
             title="Apendicitis" 
             description="Diagnóstico y tratamiento especializado para apendicitis aguda."
             image="/img/service3.webp"
-            link="/Service"
-          />
-          <ServiceCard 
-            title="Cáncer del Colon" 
-            description="Detección y manejo integral del cáncer de colon."
-            image="/img/service2.webp"
-            link="/Service"
+            link="/Service2"
           />
           <ServiceCard 
             title="Cáncer del Estómago" 
             description="Tratamiento especializado para el cáncer gástrico."
             image="/img/service1.webp"
-            link="/Service"
+            link="/Service3"
           />
         </div>
 

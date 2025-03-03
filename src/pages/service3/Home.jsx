@@ -5,23 +5,21 @@ import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 
-
-
 const Home = () => {
   return (
     <div className="bg-gray-50">
-        <nav>
-            <Navbar/>
-        </nav>
+      <nav>
+        <Navbar />
+      </nav>
       {/* Hero Section */}
       <section className="relative bg-white text-black py-32 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Cáncer de Colón</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Cáncer de Estómago</h2>
           <p className="text-lg md:text-lg mb-6">
-          El cáncer de colon es una enfermedad que afecta al intestino grueso y suele comenzar como pólipos que pueden volverse malignos. Sus síntomas incluyen cambios en los hábitos intestinales, sangre en las heces y dolor abdominal. Factores de riesgo como dieta, antecedentes familiares y tabaquismo aumentan su probabilidad. La detección temprana es clave, y el tratamiento puede incluir cirugía, quimioterapia y radioterapia.
-</p>
+            El cáncer de estómago consiste en un crecimiento de células que comienza en el estómago. El estómago está en la parte media superior del abdomen, justo por debajo de las costillas. El estómago ayuda a descomponer y digerir los alimentos. El cáncer de estómago puede desarrollarse en cualquier parte del estómago. En casi todo el mundo, los tipos de cáncer de estómago se manifiestan en la parte principal del estómago (cuerpo del estómago).
+          </p>
           <div className="flex justify-center gap-4">
-           <a href="/#services" className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
+            <a href="/#services" className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
               Ver Servicios
             </a>
             <a
@@ -41,15 +39,12 @@ const Home = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Sobre el Servicio</h2>
             <p className="text-gray-600 mb-4">
-            Ofrecemos un servicio integral que incluye la detección temprana mediante colonoscopias y pruebas avanzadas, un diagnóstico personalizado utilizando tecnología de última generación, y tratamientos especializados que abarcan cirugía, quimioterapia, radioterapia y terapias innovadoras. 
-                        </p>
-            <p className="text-gray-600">
-Además, brindamos atención continua con un enfoque humano y profesional, garantizando seguimiento médico durante todo el proceso y priorizando la calidad de vida en cada etapa.
+              El tratamiento contra el cáncer de estómago tiene mayor probabilidad de ser exitoso si el cáncer solo está en el estómago. El pronóstico para las personas que tienen pequeños tipos de cáncer de estómago es bastante bueno. Se prevé que muchas personas se curen. La mayoría de los tipos de cáncer de estómago se encuentran cuando la enfermedad está avanzada y cuando curarse es menos probable.
             </p>
           </div>
           <div>
             <img
-              src="img/details2.webp"
+              src="img/details.jpg"
               alt="Doctor"
               className="w-full rounded-lg shadow-md"
             />
@@ -65,11 +60,10 @@ Además, brindamos atención continua con un enfoque humano y profesional, garan
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
-            { title: "Detección temprana", desc: "Realizamos colonoscopias y pruebas avanzadas para identificar pólipos o signos tempranos de cáncer." },
-            { title: "Diagnóstico personalizado", desc: "Contamos con tecnología de última generación para un diagnóstico preciso y detallado."},
-            { title: "Tratamientos especializados", desc: "Diseñamos planes de tratamiento individualizados que pueden incluir cirugía, quimioterapia, radioterapia y terapias avanzadas." },
-            { title: "Atención continua", desc: " Proveemos seguimiento médico constante para garantizar tu bienestar durante y después del tratamiento." },
-
+            { title: "Síntomas", desc: "Dificultad para tragar, dolor abdominal, sensación de hinchazón abdominal, acidez estomacal, indigestión, náuseas, vómitos, pérdida involuntaria de peso, sentirse muy cansado, heces de color negro." },
+            { title: "Causas", desc: "No se sabe exactamente cuáles son las causas del cáncer de estómago. Los expertos creen que la mayoría de los tipos de cáncer de estómago empiezan cuando algo daña el revestimiento interno de este órgano." },
+            { title: "Diagnóstico", desc: "Para el diagnóstico se puede utilizar: Observar el estómago por dentro con una endoscopia, ecografía de estómago, análisis de sangre, pruebas por imágenes, cirugía." },
+            { title: "Etapa del Cáncer", desc: "Para determinar la etapa del cáncer se realizan análisis de sangre, pruebas por imágenes y cirugía." },
           ].map((service, index) => (
             <div
               key={index}
@@ -83,9 +77,10 @@ Además, brindamos atención continua con un enfoque humano y profesional, garan
       </section>
 
 
+
       {/* Footer */}
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );

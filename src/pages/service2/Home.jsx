@@ -5,23 +5,21 @@ import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 
-
-
 const Home = () => {
   return (
     <div className="bg-gray-50">
-        <nav>
-            <Navbar/>
-        </nav>
+      <nav>
+        <Navbar />
+      </nav>
       {/* Hero Section */}
       <section className="relative bg-white text-black py-32 px-6 text-center">
         <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Cáncer de Colón</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Apendicitis</h2>
           <p className="text-lg md:text-lg mb-6">
-          El cáncer de colon es una enfermedad que afecta al intestino grueso y suele comenzar como pólipos que pueden volverse malignos. Sus síntomas incluyen cambios en los hábitos intestinales, sangre en las heces y dolor abdominal. Factores de riesgo como dieta, antecedentes familiares y tabaquismo aumentan su probabilidad. La detección temprana es clave, y el tratamiento puede incluir cirugía, quimioterapia y radioterapia.
-</p>
+            La apendicitis es una inflamación del apéndice. El apéndice es una bolsa en forma de dedo que sobresale del colon en la parte inferior derecha del vientre, también llamada abdomen. La apendicitis causa dolor en la parte inferior derecha del abdomen. Sin embargo, en la mayoría de las personas, el dolor comienza alrededor del ombligo y luego se desplaza. A medida que empeora la inflamación, suele aumentar el dolor de la apendicitis, y, con el tiempo, se agrava.
+          </p>
           <div className="flex justify-center gap-4">
-           <a href="/#services" className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
+            <a href="/#services" className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
               Ver Servicios
             </a>
             <a
@@ -41,15 +39,12 @@ const Home = () => {
           <div>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Sobre el Servicio</h2>
             <p className="text-gray-600 mb-4">
-            Ofrecemos un servicio integral que incluye la detección temprana mediante colonoscopias y pruebas avanzadas, un diagnóstico personalizado utilizando tecnología de última generación, y tratamientos especializados que abarcan cirugía, quimioterapia, radioterapia y terapias innovadoras. 
-                        </p>
-            <p className="text-gray-600">
-Además, brindamos atención continua con un enfoque humano y profesional, garantizando seguimiento médico durante todo el proceso y priorizando la calidad de vida en cada etapa.
+              El tratamiento de la apendicitis suele consistir en una intervención quirúrgica para extirpar el apéndice. Antes de la cirugía, es posible que te administren antibióticos para tratar la infección.
             </p>
           </div>
           <div>
             <img
-              src="img/details2.webp"
+              src="img/details1.avif"
               alt="Doctor"
               className="w-full rounded-lg shadow-md"
             />
@@ -65,11 +60,10 @@ Además, brindamos atención continua con un enfoque humano y profesional, garan
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
-            { title: "Detección temprana", desc: "Realizamos colonoscopias y pruebas avanzadas para identificar pólipos o signos tempranos de cáncer." },
-            { title: "Diagnóstico personalizado", desc: "Contamos con tecnología de última generación para un diagnóstico preciso y detallado."},
-            { title: "Tratamientos especializados", desc: "Diseñamos planes de tratamiento individualizados que pueden incluir cirugía, quimioterapia, radioterapia y terapias avanzadas." },
-            { title: "Atención continua", desc: " Proveemos seguimiento médico constante para garantizar tu bienestar durante y después del tratamiento." },
-
+            { title: "Síntomas", desc: "Dolor repentino que comienza en el lado derecho en la parte inferior del abdomen, náuseas y vómitos, pérdida del apetito, fiebre, estreñimiento o diarrea, distensión del estómago, gases." },
+            { title: "Causas", desc: "Una obstrucción en el revestimiento del apéndice, llamado lumen, es la causa probable de la apendicitis. Esta obstrucción puede causar una infección." },
+            { title: "Diagnóstico", desc: "Examen físico, análisis de sangre, análisis de orina, estudios por imágenes." },
+            { title: "Tratamiento", desc: "Suele realizarse una intervención quirúrgica abierta o por laparoscopia." },
           ].map((service, index) => (
             <div
               key={index}
@@ -82,10 +76,11 @@ Además, brindamos atención continua con un enfoque humano y profesional, garan
         </div>
       </section>
 
+ 
 
       {/* Footer */}
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );

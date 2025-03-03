@@ -26,7 +26,7 @@ const App = () => {
         <div className="py-12" id="about">
           <AboutSection/>  
         </div>
-        <Partners/>
+        <Associations/>
         <div className="py-6" id="services">
         <Service />
         </div>
@@ -43,8 +43,8 @@ const App = () => {
 
        <div className="py-9" id="contact">
        <Contact/>
-          <Associations/>
-         
+          
+          <Partners/>
         </div>
       </main>
       <Footer />
