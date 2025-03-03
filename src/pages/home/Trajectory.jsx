@@ -99,27 +99,27 @@ const trajectoryData = [
   {
     icon: <RiMicroscopeLine size={24} />,
     title: "Sociedad de Gastroenterología del Estado de Puebla",
-    description: "2006-2012",
+    description: "",
   },
   {
     icon: <MdHealthAndSafety size={24} />,
     title: "Asociación Mexicana de Gastroenterología",
-    description: "2000-20XX",
+    description: "",
   },
   {
     icon: <FaHeartbeat size={24} />,
     title: "Certificado por el Consejo Mexicano de Cirugía General",
-    description: "2000-20XX",
+    description: "",
   },
   {
     icon: <MdHealthAndSafety size={24} />,
     title: "Recertificación por el Consejo Mexicano de Cirugía General",
-    description: "2000-20XX",
+    description: "",
   },
   {
     icon: <RiMicroscopeLine size={24} />,
     title: "Médico adscrito en el Departamento de Cirugía Gastrointestinal",
-    description: "2000-20XX",
+    description: "",
   },
 ];
 
