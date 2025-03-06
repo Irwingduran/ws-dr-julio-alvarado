@@ -8,7 +8,7 @@ const GoogleReviewBanner = () => {
         Ayúdanos a mejorar compartiendo tu experiencia en Google.
       </p>
       <a
-        href="https://www.google.com/search?q=julio+alvarado+lezama&oq=julio+alvarado+lezama&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMhAIARAuGK8BGMcBGIAEGI4FMggIAhAAGBYYHjIKCAMQABiABBiiBDIKCAQQABiABBiiBDIGCAUQRRg9MgYIBhBFGDwyBggHEEUYPdIBCDMzODNqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8"
+        href="https://www.google.com.mx/maps/place/Dr.+Julio+Alvarado+Lezama,+Cirujano+general/@19.0454884,-98.207859,17z/data=!4m8!3m7!1s0x85cfc1d763201781:0x6f6c27763a851932!8m2!3d19.0454884!4d-98.2052841!9m1!1b1!16s%2Fg%2F11h4c6y6g9?entry=ttu&g_ep=EgoyMDI1MDIyNi4xIKXMDSoASAFQAw%3D%3D"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center justify-center bg-white text-backgroundColor px-8 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100 transition duration-200"
