@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import { FaFacebookF, FaPhone, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -81,12 +81,12 @@ const Footer = () => {
               <FaTwitter size={24} />
             </a>
             <a
-              href="https://wa.me/522224809611"
+              href="tel:522222576989"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-hoverColor transition-all"
             >
-              <FaWhatsapp size={24} />
+              <FaPhone size={24} />
             </a>
           </div>
         </div>

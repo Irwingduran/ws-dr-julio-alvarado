@@ -63,7 +63,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <button
-                className="flex items-center gap-2 bg-white text-[#b0e648] px-5 py-2 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
+                className="flex items-center gap-2 bg-white text-backgroundColor px-5 py-2 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
               >
                 <AiOutlineCalendar size={20} />
                 Agendar Cita

@@ -17,7 +17,7 @@ const DoctorProfile = () => {
             </h2>
             <p className="text-gray-600 mb-6">
             Gastroenterología, Cirugía Oncológica Gastrointestinal, Cirugía General y Laparoscopía.            </p>
-            <button className="bg-backgroundColor text-white py-2 px-6 rounded-lg flex items-center gap-2 hover:bg-purple-600 transition duration-300">
+            <button className="bg-backgroundColor cursor-none text-white py-2 px-6 rounded-lg flex items-center gap-2 transition duration-300">
             Cédula: 4568576
             </button>
           </div>

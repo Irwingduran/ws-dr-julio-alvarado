@@ -20,7 +20,7 @@ const Trajectory = () => {
 
         {/* Experiencia */}
         <div className="mb-12">
-  <h3 className="text-2xl font-bold text-[#b0e648] mb-6">Experiencia</h3>
+  <h3 className="text-2xl font-bold text-backgroundColor mb-6">Experiencia</h3>
   <div className="relative">
     {/* Línea de tiempo */}
     <div className="absolute w-1 bg-backgroundColor h-full left-8 top-0"></div>
@@ -47,7 +47,7 @@ const Trajectory = () => {
 
         {/* Cursos */}
         <div className="mb-12">
-  <h3 className="text-2xl font-bold text-[#b0e648] mb-6">
+  <h3 className="text-2xl font-bold text-backgroundColor mb-6">
     Constante actualización médica
   </h3>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -70,7 +70,7 @@ const Trajectory = () => {
 
         {/* Ponencias */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-[#b0e648] mb-6">Ponencias</h3>
+          <h3 className="text-2xl font-bold text-backgroundColor mb-6">Ponencias</h3>
           <div className="p-6 bg-white shadow-md rounded-lg">
             <h4 className="text-lg font-semibold text-gray-800">Ponencia:</h4>
             <p className="text-gray-600">“Cáncer de Páncreas”.</p>

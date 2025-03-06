@@ -48,11 +48,11 @@ const Reviews = () => {
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">Opiniones de Pacientes</h2>
         <div className="relative bg-white shadow-lg rounded-2xl p-10">
-          <FaQuoteLeft className="text-[#b0e648] text-4xl mb-4" />
+          <FaQuoteLeft className="text-backgroundColor text-4xl mb-4" />
           <p className="text-lg italic text-gray-700 mb-6">
             "{reviewsData[currentReview].review}"
           </p>
-          <h4 className="text-2xl font-semibold text-[#b0e648]">
+          <h4 className="text-2xl font-semibold text-backgroundColor">
             {reviewsData[currentReview].name}
           </h4>
           {/* Renderiza las estrellas */}

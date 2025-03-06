@@ -80,7 +80,7 @@ const ServiceCard = ({ title, description, image, link }) => {
       
       {/* Contenido de la tarjeta */}
       <div className="p-6 bg-white relative">
-        <h3 className="text-2xl font-bold text-gray-700 mb-3 group-hover:text-[#b0e648] transition-colors duration-300">
+        <h3 className="text-2xl font-bold text-gray-700 mb-3 group-hover:text-backgroundColor transition-colors duration-300">
           {title}
         </h3>
         <p className="text-gray-600">

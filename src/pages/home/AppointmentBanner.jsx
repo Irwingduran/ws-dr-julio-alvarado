@@ -7,7 +7,7 @@ const AppointmentBanner = () => {
       <div
         className="mt-20 relative w-full h-96 bg-gray-900 text-white bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://cdn.findoctor.com.co/media/3290/medium_drjulio.png')", 
+          backgroundImage: "url('/img/JA2.png')", 
         }}>
         {/* Contenido del banner */}
         <div className="relative z-10 flex flex-col justify-center items-center h-full p-6 text-center">
@@ -16,9 +16,9 @@ const AppointmentBanner = () => {
             Recibe atención médica de calidad y personalizada. Reserva tu cita en línea y accede al cuidado profesional que mereces.
           </p>
           <a href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0" target="_blank">
-          <button className="px-8 py-3 bg-[#b0e648] hover:bg-teal-600 text-white font-semibold rounded-lg shadow-lg transition duration-300">
-            Agendar cita
-          </button>
+            <button className="px-8 py-3 bg-backgroundColor hover:bg-teal-600 text-white font-semibold rounded-lg shadow-lg transition duration-300">
+              Agendar cita
+            </button>
           </a>
         </div>
         {/* Overlay para resaltar el texto */}
@@ -39,7 +39,7 @@ const AppointmentBanner = () => {
           ></iframe>
         </div>
         <p className="mt-4 text-gray-600">Visítanos en nuestra ubicación para consultas y atención médica personalizada.</p>
-          <p className="mt-4 text-gray-600">Hospital UPAEP, Consultorio 4, Puebla, Pue.</p>
+        <p className="mt-4 text-gray-600">Hospital UPAEP, Consultorio 4, Puebla, Pue.</p>
       </div>
     </div>
   );
