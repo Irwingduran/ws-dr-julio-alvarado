@@ -58,7 +58,7 @@ const Navbar = () => {
           {/* Botón Agendar Cita */}
           <div className="hidden lg:flex">
             <a
-              href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+perfil+en+findoctor+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+sitio+web+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
             >
