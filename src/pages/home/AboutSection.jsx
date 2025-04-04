@@ -21,7 +21,7 @@ const AboutSection = () => {
               El Dr. Julio Alvarado Lezama es Médico Cirujano egresado de la UPAEP con especialidad en Cirugía General. Está certificado y recertificado por el Consejo Mexicano de Cirugía General, y es miembro de la Sociedad de Gastroenterología del Estado de Puebla y la Asociación Mexicana de Gastroenterología.
               </p>
               <p className="text-gray-700 mb-6">
-              Su experiencia incluye su rol como Médico adscrito en el Departamento de Cirugía Gastrointestinal, además de una constante actualización en cursos especializados en Hígado, Páncreas, Colón y Cirugía Endoscópica.
+              Su experiencia incluye su rol como Médico adscrito en el Departamento de Cirugía Gastrointestinal, además de una constante actualización en cursos especializados en Hígado, Páncreas, Colon y Cirugía Endoscópica.
               </p>
               <p className="text-gray-700 mb-6">
               Ha compartido sus conocimientos en ponencias como “Cáncer de Páncreas”, destacando su compromiso con la excelencia médica y el bienestar de sus pacientes. 

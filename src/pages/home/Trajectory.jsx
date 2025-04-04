@@ -126,7 +126,7 @@ const trajectoryData = [
 const courses = [
   "Curso Internacional de Actualización en Cirugía General.",
   "Curso Internacional de Hígado, Páncreas y Vías Biliares.",
-  "Curso de actualización en Colón, recto y ano.",
+  "Curso de actualización en Colon, recto y ano.",
   "Diplomado de Actualización Médica. La Salle 2005.",
   "Curso: “Nudos y Suturas en Cirugía Endoscópica”.",
 ];

@@ -16,7 +16,7 @@ const Home = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Apendicitis</h2>
           <p className="text-lg md:text-lg mb-6">
-            La apendicitis es una inflamación del apéndice. El apéndice es una bolsa en forma de dedo que sobresale del colon en la parte inferior derecha del vientre, también llamada abdomen. La apendicitis causa dolor en la parte inferior derecha del abdomen. Sin embargo, en la mayoría de las personas, el dolor comienza alrededor del ombligo y luego se desplaza. A medida que empeora la inflamación, suele aumentar el dolor de la apendicitis, y, con el tiempo, se agrava.
+            La apendicitis es una inflamación del apéndice. El apéndice es una bolsa en forma de dedo que sobresale del colon en la parte inferior derecha del vientre, también llamada abdomen. La apendicitis causa dolor en la parte inferior derecha del abdomen. Sin embargo, en la mayoría de las personas, el dolor comienza alrededor del ombligo y luego se desplaza. A medida que empeora la inflamación, suele aumentar el dolor de la apendicitis, y con el tiempo se agrava.
           </p>
           <div className="flex justify-center gap-4">
             <a href="/#services" className="bg-white text-blue-500 px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
@@ -63,7 +63,7 @@ const Home = () => {
             { title: "Síntomas", desc: "Dolor repentino que comienza en el lado derecho en la parte inferior del abdomen, náuseas y vómitos, pérdida del apetito, fiebre, estreñimiento o diarrea, distensión del estómago, gases." },
             { title: "Causas", desc: "Una obstrucción en el revestimiento del apéndice, llamado lumen, es la causa probable de la apendicitis. Esta obstrucción puede causar una infección." },
             { title: "Diagnóstico", desc: "Examen físico, análisis de sangre, análisis de orina, estudios por imágenes." },
-            { title: "Tratamiento", desc: "Suele realizarse una intervención quirúrgica abierta o por laparoscopia." },
+            { title: "Tratamiento", desc: "Suele realizarse una intervención quirúrgica abierta o por laparoscopía." },
           ].map((service, index) => (
             <div
               key={index}

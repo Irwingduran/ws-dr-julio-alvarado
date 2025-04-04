@@ -62,7 +62,7 @@ const Home = () => {
           {[
             { title: "Síntomas", desc: "Dificultad para tragar, dolor abdominal, sensación de hinchazón abdominal, acidez estomacal, indigestión, náuseas, vómitos, pérdida involuntaria de peso, sentirse muy cansado, heces de color negro." },
             { title: "Causas", desc: "No se sabe exactamente cuáles son las causas del cáncer de estómago. Los expertos creen que la mayoría de los tipos de cáncer de estómago empiezan cuando algo daña el revestimiento interno de este órgano." },
-            { title: "Diagnóstico", desc: "Para el diagnóstico se puede utilizar: Observar el estómago por dentro con una endoscopia, ecografía de estómago, análisis de sangre, pruebas por imágenes, cirugía." },
+            { title: "Diagnóstico", desc: "Para el diagnóstico se observa el estómago por dentro con una endoscopia, ecografía de estómago, análisis de sangre, pruebas por imágenes, cirugía." },
             { title: "Etapa del Cáncer", desc: "Para determinar la etapa del cáncer se realizan análisis de sangre, pruebas por imágenes y cirugía." },
           ].map((service, index) => (
             <div
