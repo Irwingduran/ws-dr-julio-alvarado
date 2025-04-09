@@ -22,7 +22,7 @@ const ServiceSection = ({
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-3xl font-bold text-neutralDGrey">{title}</h2>
           <p className="text-gray-700 mt-4 p-5">{description}</p>
-          <a href="https://www.findoctor.com.mx/doctores/ivo-humberto-pineda-somodevilla" target="_blank">
+          <a href="https://www.findoctor.com.mx/doctores/julio-alvarado-lezama" target="_blank">
             <button className="bg-backgroundColor rounded-lg text-white p-4">
               {buttonText}
             </button>
