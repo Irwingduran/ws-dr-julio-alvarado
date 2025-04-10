@@ -18,7 +18,10 @@ const DoctorProfile = () => {
             <p className="text-gray-600 mb-6">
             Gastroenterología, Cirugía Oncológica Gastrointestinal, Cirugía General y Laparoscopía.            </p>
             <button className="bg-backgroundColor cursor-none text-white py-2 px-6 rounded-lg flex items-center gap-2 transition duration-300">     
-             Cédula Profesional: 4568576/ Cédula de Especialidad: 6525756
+             Cédula Profesional: 4568576
+            </button>
+              <button className="bg-backgroundColor cursor-none text-white py-2 px-6 rounded-lg flex items-center gap-2 transition duration-300">     
+             Cédula de Especialidad: 6525756
             </button>
           </div>
     
