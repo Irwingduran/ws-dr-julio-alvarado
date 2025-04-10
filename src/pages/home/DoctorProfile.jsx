@@ -22,7 +22,7 @@ const DoctorProfile = () => {
             </button>
               <br/>
               <button className="bg-backgroundColor cursor-none text-white py-2 px-6 rounded-lg flex items-center gap-2 transition duration-300">     
-             Cédula de Especialidad: 6525756
+             Cédula Especialidad: 6525756
             </button>
           </div>
     
