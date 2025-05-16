@@ -23,14 +23,26 @@ const Navbar = () => {
     setShowForm(false);
   };
 
+  const handleAppointment = () => {
+    window.open(
+      "https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+sitio+web+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0",
+      "_blank"
+    );
+  };
+
   return (
     <div className="fixed w-full z-10 text-white">
       <ScrollToHash/>
       <div>
         {/* Encabezado principal */}
         <div className="flex flex-row justify-between p-5 md:px-32 px-5 bg-backgroundColor shadow-lg">
-          <div className="flex flex-row items-center cursor-pointer">
-            <a href="/#home">
+          <div className="flex flex-row items-center cursor-pointer gap-3">
+            <a href="/#home" className="flex items-center gap-2">
+              <img
+                src="/logo.png"
+                alt="Logo del Dr. Julio Alvarado Lezama"
+                className="h-20 w-20 object-contain"
+              />
               <h1 className="text-2xl font-semibold">Dr. Julio Alvarado Lezama</h1>
             </a>
           </div>
@@ -52,23 +64,17 @@ const Navbar = () => {
             <a href="/#contact" className="hover:text-hoverColor transition-all">
               Contacto
             </a>
-            
           </nav>
 
-          {/* Botón Agendar Cita */}
-          <div className="hidden lg:flex">
-            <a
-              href="https://api.whatsapp.com/send/?phone=5212224809611&text=Hola+Dr.+encontr%C3%A9+su+sitio+web+y+me+gustar%C3%ADa+realizar+una+consulta&type=phone_number&app_absent=0"
-              target="_blank"
-              rel="noopener noreferrer"
+          {/* Botón Agendar Cita - Versión escritorio */}
+          <div className="hidden lg:flex items-center">
+            <button
+              onClick={handleAppointment}
+              className="flex items-center gap-2 bg-white text-backgroundColor px-5 py-2 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
             >
-              <button
-                className="flex items-center gap-2 bg-white text-backgroundColor px-5 py-2 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-transform duration-300"
-              >
-                <AiOutlineCalendar size={20} />
-                Agendar Cita
-              </button>
-            </a>
+              <AiOutlineCalendar size={20} />
+              Agendar Cita
+            </button>
           </div>
 
           {/* Menú móvil */}
@@ -96,15 +102,21 @@ const Navbar = () => {
           <a href="/#services" onClick={closeMenu} className="hover:text-hoverColor transition-all">
             Servicios
           </a>
+          <a href="/#resenas" onClick={closeMenu} className="hover:text-hoverColor transition-all">
+            Reseñas
+          </a>
           <a href="/#contact" onClick={closeMenu} className="hover:text-hoverColor transition-all">
             Contacto
           </a>
 
-          {/* Botón Agendar Cita en móvil */}
+          {/* Botón Agendar Cita - Versión móvil */}
           <div className="lg:hidden mt-4 flex justify-center">
             <button
-              onClick={openForm}
-              className="flex items-center justify-center gap-2 bg-teal-700 text-white px-5 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300"
+              onClick={() => {
+                handleAppointment();
+                closeMenu();
+              }}
+              className="flex items-center justify-center gap-2 bg-white text-backgroundColor px-5 py-2 rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-300"
             >
               <AiOutlineCalendar size={20} />
               Agendar Cita
